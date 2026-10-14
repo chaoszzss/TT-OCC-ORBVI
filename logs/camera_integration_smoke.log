@@ -1,0 +1,6 @@
+/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/.venv/lib/python3.12/site-packages/transformers/utils/deprecation.py:172: UserWarning: The following named arguments are not valid for `SegformerImageProcessor.__init__` and were ignored: 'feature_extractor_type'
+  return func(*args, **kwargs)
+Loading pretrained dinov2_vitg14 from torch hub
+camera: 1/2348, frame=0, voxels=9270, 0.97s/frame, elapsed=1.4s
+camera: 3/2348, frame=2, voxels=12401, 0.67s/frame, elapsed=2.9s
+{"route": "camera", "complete": false, "processed": 3, "expected": 2348}

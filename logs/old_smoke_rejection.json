@@ -1,0 +1,320 @@
+{
+  "run_directory": "/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke",
+  "prepared_directory": "/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/prepared",
+  "expected_frames": 2348,
+  "expected_raw_points": 46929024,
+  "checks": [
+    {
+      "name": "source_manifest_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "expected_source_frame_count",
+      "passed": true,
+      "detail": {
+        "manifest": 2348,
+        "expected": 2348
+      }
+    },
+    {
+      "name": "run_expected_full_frame_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_index_contiguous",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_raw_point_accounting",
+      "passed": true,
+      "detail": {
+        "source_frame_sum": 46929024,
+        "manifest_sum": 46929024,
+        "expected": 46929024
+      }
+    },
+    {
+      "name": "all_recording_frames_logged",
+      "passed": false,
+      "detail": {
+        "recorded": 3,
+        "unique": 3,
+        "expected": 2348
+      }
+    },
+    {
+      "name": "sensor_timestamps_exactly_match_manifest",
+      "passed": false,
+      "detail": {
+        "first_source": 1720198192900208445,
+        "last_source": 1720198427600396191,
+        "first_result": 1720198192900208445,
+        "last_result": 1720198193100068405
+      }
+    },
+    {
+      "name": "sensor_timestamps_strictly_increase",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "run_bag_fingerprint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "run_config_fingerprint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "full_run_not_development_limit",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "runner_summary_complete",
+      "passed": false,
+      "detail": "summary.json must contain runner acceptance; plot metadata must never overwrite it"
+    },
+    {
+      "name": "runner_summary_frame_count",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "runner_progress_complete",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "full_raw_point_accounting",
+      "passed": false,
+      "detail": {
+        "frame_log_sum": 59904,
+        "summary_sum": null
+      }
+    },
+    {
+      "name": "route_consistency",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "no_unavailable_semantic_ground_truth_score",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unavailable_lidar_camera_calibration_disclosed",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "complete_occupancy_artifact_set",
+      "passed": false,
+      "detail": {
+        "found": 3,
+        "missing_count": 2345,
+        "extra_count": 0
+      }
+    },
+    {
+      "name": "complete_traversability_artifact_set",
+      "passed": false,
+      "detail": {
+        "found": 3,
+        "missing_count": 2345,
+        "extra_count": 0
+      }
+    },
+    {
+      "name": "all_frame_artifacts_valid",
+      "passed": false,
+      "detail": {
+        "artifact_errors": 3
+      }
+    },
+    {
+      "name": "summary_unknown_mean_matches_frames",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "summary_blocked_mean_matches_frames",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "summary_partial_clearance_mean_matches_frames",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "summary_observed_clearance_mean_matches_frames",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "finite_nonnegative_frame_latencies",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "summary_latency_matches_frames",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "summary_ground_valid_count",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "persisted_holdout_metrics_valid",
+      "passed": false,
+      "detail": "[Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/heldout_metrics.jsonl'"
+    },
+    {
+      "name": "all_raw_camera_2_images_preserved",
+      "passed": true,
+      "detail": {
+        "source_raw_images": 4697,
+        "indexed_images": 4697
+      }
+    },
+    {
+      "name": "all_raw_camera_3_images_preserved",
+      "passed": true,
+      "detail": {
+        "source_raw_images": 4697,
+        "indexed_images": 4697
+      }
+    },
+    {
+      "name": "all_raw_camera_4_images_preserved",
+      "passed": true,
+      "detail": {
+        "source_raw_images": 4697,
+        "indexed_images": 4697
+      }
+    },
+    {
+      "name": "all_raw_camera_5_images_preserved",
+      "passed": true,
+      "detail": {
+        "source_raw_images": 4696,
+        "indexed_images": 4696
+      }
+    },
+    {
+      "name": "all_anchor_pixel_semantic_maps_saved",
+      "passed": false,
+      "detail": {
+        "maps": 12,
+        "expected": 9392
+      }
+    },
+    {
+      "name": "real_pixel_semantics_artifacts_valid",
+      "passed": false,
+      "detail": [
+        "3 camera 3: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000003_3.npz'",
+        "3 camera 2: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000003_2.npz'",
+        "3 camera 4: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000003_4.npz'",
+        "3 camera 5: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000003_5.npz'",
+        "4 camera 3: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000004_3.npz'",
+        "4 camera 2: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000004_2.npz'",
+        "4 camera 4: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000004_4.npz'",
+        "4 camera 5: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000004_5.npz'",
+        "5 camera 3: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000005_3.npz'",
+        "5 camera 2: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000005_2.npz'",
+        "5 camera 4: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000005_4.npz'",
+        "5 camera 5: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000005_5.npz'",
+        "6 camera 3: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000006_3.npz'",
+        "6 camera 2: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000006_2.npz'",
+        "6 camera 4: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000006_4.npz'",
+        "6 camera 5: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000006_5.npz'",
+        "7 camera 3: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000007_3.npz'",
+        "7 camera 2: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000007_2.npz'",
+        "7 camera 4: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000007_4.npz'",
+        "7 camera 5: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000007_5.npz'",
+        "8 camera 3: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000008_3.npz'",
+        "8 camera 2: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000008_2.npz'",
+        "8 camera 4: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000008_4.npz'",
+        "8 camera 5: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000008_5.npz'",
+        "9 camera 3: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000009_3.npz'",
+        "9 camera 2: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000009_2.npz'",
+        "9 camera 4: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000009_4.npz'",
+        "9 camera 5: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000009_5.npz'",
+        "10 camera 3: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000010_3.npz'",
+        "10 camera 2: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000010_2.npz'",
+        "10 camera 4: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000010_4.npz'",
+        "10 camera 5: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000010_5.npz'",
+        "11 camera 3: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000011_3.npz'",
+        "11 camera 2: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000011_2.npz'",
+        "11 camera 4: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000011_4.npz'",
+        "11 camera 5: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000011_5.npz'",
+        "12 camera 3: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000012_3.npz'",
+        "12 camera 2: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000012_2.npz'",
+        "12 camera 4: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000012_4.npz'",
+        "12 camera 5: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000012_5.npz'",
+        "13 camera 3: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000013_3.npz'",
+        "13 camera 2: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000013_2.npz'",
+        "13 camera 4: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000013_4.npz'",
+        "13 camera 5: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000013_5.npz'",
+        "14 camera 3: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000014_3.npz'",
+        "14 camera 2: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000014_2.npz'",
+        "14 camera 4: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000014_4.npz'",
+        "14 camera 5: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000014_5.npz'",
+        "15 camera 3: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000015_3.npz'",
+        "15 camera 2: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000015_2.npz'",
+        "15 camera 4: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000015_4.npz'",
+        "15 camera 5: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000015_5.npz'",
+        "16 camera 3: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000016_3.npz'",
+        "16 camera 2: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000016_2.npz'",
+        "16 camera 4: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000016_4.npz'",
+        "16 camera 5: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000016_5.npz'",
+        "17 camera 3: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000017_3.npz'",
+        "17 camera 2: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000017_2.npz'",
+        "17 camera 4: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000017_4.npz'",
+        "17 camera 5: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000017_5.npz'",
+        "18 camera 3: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000018_3.npz'",
+        "18 camera 2: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000018_2.npz'",
+        "18 camera 4: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000018_4.npz'",
+        "18 camera 5: [Errno 2] No such file or directory: '/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/runs/integration_smoke/semantic_maps/000018_5.npz'"
+      ]
+    },
+    {
+      "name": "scheduled_real_map_figures_exist",
+      "passed": false,
+      "detail": null
+    }
+  ],
+  "artifact_errors": [
+    {
+      "frame": 0,
+      "error": "invalid/zero source return accounting differs at this frame"
+    },
+    {
+      "frame": 1,
+      "error": "invalid/zero source return accounting differs at this frame"
+    },
+    {
+      "frame": 2,
+      "error": "invalid/zero source return accounting differs at this frame"
+    }
+  ],
+  "route": "lidar",
+  "accepted": false,
+  "statistics": {
+    "artifact_errors": 3
+  },
+  "class_cell_totals": {},
+  "source_raw_points": 46929024,
+  "accounted_raw_points": 59904,
+  "scope": "complete processing and artifact consistency; geometry quality is separate from labelled accuracy"
+}

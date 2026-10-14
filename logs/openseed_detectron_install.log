@@ -1,0 +1,15 @@
+Processing ./models/detectron2-openseed-source
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: detectron2
+  Building wheel for detectron2 (setup.py): started
+  Building wheel for detectron2 (setup.py): still running...
+  Building wheel for detectron2 (setup.py): finished with status 'done'
+  Created wheel for detectron2: filename=detectron2-0.6-cp312-cp312-linux_x86_64.whl size=1068693 sha256=02c31f85b935eebd0a63892094340a88d99189231ad52f031e49dc8573830b56
+  Stored in directory: /home/chaoszzss/.cache/pip/wheels/2c/27/63/4a1a1693c08a5312685540391c9fe40f943ab9692b8b5bf279
+Successfully built detectron2
+Installing collected packages: detectron2
+Successfully installed detectron2-0.6
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: /home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/.openseed-venv/bin/python -m pip install --upgrade pip

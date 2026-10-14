@@ -1,0 +1,49 @@
+{
+  "model": {
+    "provider": "Official pretrained MapAnything Apache",
+    "repository": "facebook/map-anything-apache",
+    "revision": "00f9c245bbcb60522d1ed7f9e9d88462c6e3f38a",
+    "source": "Pinned official facebookresearch/map-anything; TT-Occ vendor predates this checkpoint's register-token config",
+    "source_commit": "3d10cf7a3016fc0f9bb13a071ee66c47b10be0d9",
+    "dinov2_source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+    "device": "cuda",
+    "image_size": 224,
+    "dtype": "bfloat16 backbone/transformer + float32 geometry encoders/heads",
+    "bf16_geometry_dtype_adapter": true,
+    "memory_efficient_inference": true,
+    "dense_head_minibatch": 1,
+    "input_depth": false,
+    "input_lidar": false,
+    "input_poses": "fixed camera-rig extrinsics only",
+    "input_intrinsics": true,
+    "trained_on_orbvi": false,
+    "pixel_stride": 2,
+    "max_range_m": 20.0,
+    "weights_loaded_strict": true,
+    "load_seconds": 13.334281379007734
+  },
+  "inference": {
+    "runtime_ms": 747.0085829991149,
+    "device": "cuda",
+    "fallback": null,
+    "views": 4,
+    "point_count": 28170,
+    "valid_pixels_per_view": [
+      24813,
+      32920,
+      30028,
+      25318
+    ],
+    "median_depth_m_per_view": [
+      3.3314101696014404,
+      3.196014881134033,
+      3.347113609313965,
+      3.2437784671783447
+    ],
+    "peak_allocated_gpu_mib": 2694.45458984375,
+    "input_lidar": false,
+    "input_depth": false
+  },
+  "views_json": "/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/results/camera_smoke/views.json",
+  "scope": "Real pretrained camera-depth smoke; this file alone does not certify a whole-bag camera run."
+}

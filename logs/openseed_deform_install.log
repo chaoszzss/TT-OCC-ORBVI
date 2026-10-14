@@ -1,0 +1,14 @@
+Processing ./models/openseed-source/openseed/body/encoder/ops
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: MultiScaleDeformableAttention
+  Building wheel for MultiScaleDeformableAttention (setup.py): started
+  Building wheel for MultiScaleDeformableAttention (setup.py): finished with status 'done'
+  Created wheel for MultiScaleDeformableAttention: filename=multiscaledeformableattention-1.0-cp312-cp312-linux_x86_64.whl size=214995 sha256=80cb854679de0cf91b70019be99fccb061bf3ef1744a2b6f4e0170baf49c17c9
+  Stored in directory: /tmp/pip-ephem-wheel-cache-yi8p9r44/wheels/7f/c1/f7/21b281373ad198c35320089a68b1ef26f58ce2705bf1793507
+Successfully built MultiScaleDeformableAttention
+Installing collected packages: MultiScaleDeformableAttention
+Successfully installed MultiScaleDeformableAttention-1.0
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: /home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/.openseed-venv/bin/python -m pip install --upgrade pip

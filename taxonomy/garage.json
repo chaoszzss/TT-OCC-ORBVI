@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "name": "orbvi-garage-v1",
+  "source_registry": "Explicit named remap from ADE20K or OpenSeeD; never raw numeric-ID palette substitution",
+  "unknown_id": 255,
+  "classes": [
+    {
+      "id": 0,
+      "name": "wall",
+      "name_zh": "墙",
+      "color": [
+        230,
+        230,
+        250
+      ],
+      "nuscenes_name": "manmade",
+      "color_hex": "#e6e6fa",
+      "source_ade20k_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 1,
+      "name": "floor",
+      "name_zh": "地面",
+      "color": [
+        255,
+        0,
+        255
+      ],
+      "nuscenes_name": "driveable_surface",
+      "safety_note": "Semantic floor is not certified traversable",
+      "color_hex": "#ff00ff",
+      "source_ade20k_ids": [
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ceiling",
+      "name_zh": "顶棚",
+      "color": [
+        255,
+        190,
+        0
+      ],
+      "nuscenes_name": "manmade",
+      "color_hex": "#ffbe00",
+      "source_ade20k_ids": [
+        5
+      ]
+    },
+    {
+      "id": 3,
+      "name": "column",
+      "name_zh": "柱",
+      "color": [
+        0,
+        190,
+        190
+      ],
+      "nuscenes_name": "manmade",
+      "color_hex": "#00bebe",
+      "source_ade20k_ids": [
+        42
+      ]
+    },
+    {
+      "id": 4,
+      "name": "car",
+      "name_zh": "车辆",
+      "color": [
+        0,
+        150,
+        245
+      ],
+      "nuscenes_name": "car",
+      "color_hex": "#0096f5",
+      "source_ade20k_ids": [
+        20,
+        80,
+        83,
+        102
+      ]
+    },
+    {
+      "id": 5,
+      "name": "person",
+      "name_zh": "行人",
+      "color": [
+        255,
+        0,
+        0
+      ],
+      "nuscenes_name": "pedestrian",
+      "color_hex": "#ff0000",
+      "source_ade20k_ids": [
+        12
+      ]
+    },
+    {
+      "id": 6,
+      "name": "door",
+      "name_zh": "门",
+      "color": [
+        170,
+        120,
+        90
+      ],
+      "nuscenes_name": "manmade",
+      "color_hex": "#aa785a",
+      "source_ade20k_ids": [
+        14
+      ]
+    },
+    {
+      "id": 7,
+      "name": "vegetation",
+      "name_zh": "植被",
+      "color": [
+        0,
+        175,
+        0
+      ],
+      "nuscenes_name": "vegetation",
+      "color_hex": "#00af00",
+      "source_ade20k_ids": [
+        4,
+        9,
+        17
+      ]
+    },
+    {
+      "id": 8,
+      "name": "other",
+      "name_zh": "其他结构或物体",
+      "color": [
+        112,
+        128,
+        144
+      ],
+      "nuscenes_name": "barrier",
+      "color_hex": "#708090",
+      "source_ade20k_ids": [
+        7,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        81,
+        82,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
+      ]
+    },
+    {
+      "id": 9,
+      "name": "road",
+      "name_zh": "道路",
+      "color": [
+        255,
+        0,
+        255
+      ],
+      "nuscenes_name": "driveable_surface",
+      "safety_note": "Semantic road is not certified traversable",
+      "color_hex": "#ff00ff",
+      "source_ade20k_ids": [
+        6
+      ]
+    },
+    {
+      "id": 10,
+      "name": "sky",
+      "name_zh": "天空",
+      "color": [
+        135,
+        206,
+        235
+      ],
+      "nuscenes_name": "sky",
+      "occupancy_semantics_valid": false,
+      "color_hex": "#87ceeb",
+      "source_ade20k_ids": [
+        2
+      ]
+    }
+  ],
+  "unknown": {
+    "id": 255,
+    "name": "unknown",
+    "name_zh": "语义未知",
+    "color": [
+      145,
+      145,
+      145
+    ],
+    "color_hex": "#919191"
+  },
+  "palette_reference": "TT-Occ upstream arguments/__init__.py active colors; garage ceiling/column/door/unknown use distinct extensions"
+}

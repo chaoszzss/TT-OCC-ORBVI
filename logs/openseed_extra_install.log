@@ -1,0 +1,48 @@
+Processing ./models/panopticapi-source
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting cloudpickle
+  Downloading cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+Collecting einops
+  Using cached einops-0.8.2-py3-none-any.whl.metadata (13 kB)
+Collecting nltk
+  Downloading nltk-3.10.3-py3-none-any.whl.metadata (3.2 kB)
+Collecting diffdist
+  Downloading diffdist-0.1.tar.gz (4.6 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting kornia
+  Downloading kornia-0.8.3-py3-none-any.whl.metadata (22 kB)
+Collecting torchmetrics
+  Downloading torchmetrics-1.9.0-py3-none-any.whl.metadata (23 kB)
+Collecting tensorboard
+  Downloading tensorboard-2.21.0-py3-none-any.whl.metadata (1.8 kB)
+Collecting hydra-core
+  Using cached hydra_core-1.3.7-py3-none-any.whl.metadata (5.7 kB)
+Requirement already satisfied: scipy in /home/chaoszzss/APP/miniconda3/envs/x-anylabeling-cu12/lib/python3.12/site-packages (1.18.1)
+Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Using cached einops-0.8.2-py3-none-any.whl (65 kB)
+Downloading nltk-3.10.3-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 4.9 MB/s eta 0:00:00
+Downloading kornia-0.8.3-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 600.7 kB/s eta 0:00:00
+Downloading torchmetrics-1.9.0-py3-none-any.whl (983 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 983.4/983.4 kB 590.3 kB/s eta 0:00:00
+Downloading tensorboard-2.21.0-py3-none-any.whl (5.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 6.1 MB/s eta 0:00:00
+Using cached hydra_core-1.3.7-py3-none-any.whl (168 kB)
+Building wheels for collected packages: panopticapi, diffdist
+  Building wheel for panopticapi (setup.py): started
+  Building wheel for panopticapi (setup.py): finished with status 'done'
+  Created wheel for panopticapi: filename=panopticapi-0.1-py3-none-any.whl size=8275 sha256=c3925d16a981b6c723d9bd2aa043e1c251ff3e05be0556d187cd84856726f4e5
+  Stored in directory: /home/chaoszzss/.cache/pip/wheels/ac/a7/1b/33727c6879d0117dcd471ceb2e1509160ca9169a46849a7b99
+  Building wheel for diffdist (setup.py): started
+  Building wheel for diffdist (setup.py): finished with status 'done'
+  Created wheel for diffdist: filename=diffdist-0.1-py3-none-any.whl size=6581 sha256=b0c3c3add8a9d071ea46bca6353c175d7261873b0f1c48fc5647320cbcc869fa
+  Stored in directory: /home/chaoszzss/.cache/pip/wheels/1f/1a/54/85e77a3d1c1d47832ad78a6d98cb4e5111968f849d8706989b
+Successfully built panopticapi diffdist
+Installing collected packages: panopticapi, hydra-core, diffdist, torchmetrics, tensorboard, nltk, kornia, einops, cloudpickle
+Successfully installed cloudpickle-3.1.2 diffdist-0.1 einops-0.8.2 hydra-core-1.3.7 kornia-0.8.3 nltk-3.10.3 panopticapi-0.1 tensorboard-2.21.0 torchmetrics-1.9.0
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: /home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/.openseed-venv/bin/python -m pip install --upgrade pip

@@ -1,0 +1,12 @@
+/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/models/openseed-source/openseed/body/encoder/encoder_deform.py:356: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @autocast(enabled=False)
+/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/models/openseed-source/openseed/body/decoder/utils/dino_decoder.py:241: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @autocast(enabled=False)
+/home/chaoszzss/APP/miniconda3/envs/x-anylabeling-cu12/lib/python3.12/site-packages/torch/functional.py:554: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:4314.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+self.task_switch  {'coco': True, 'o365': False}
+frame 0: actual panoptic outputs saved
+frame 135: actual panoptic outputs saved
+frame 1174: actual panoptic outputs saved
+frame 2347: actual panoptic outputs saved
+{"report": "/home/chaoszzss/dataset/rosbag/Occupancy_network/TT-Occ/diagnostics/openseed_panoptic_probe/report.json", "frame_count": 4, "GPU_worker_closed": true}
